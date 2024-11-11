@@ -12,7 +12,7 @@ import { skills } from '../data/skills';
 
 const Home: React.FC = () => {
   return (
-    <Container className="py-8">
+    <Container className="py-16" maxWidth="6xl">
       {/* Hero Section */}
       <HeroCard {...heroData} />
 

@@ -5,6 +5,6 @@ export const heroData = {
       "Based in Auckland, NZ Citizen\nTongan 🇹🇴",
     imageSrc: "/image.jpeg", // Ensure this image exists in the public/images/ directory
     imageAlt: "Setefano Muller Profile Picture",
-    // callToActionText: "View My Work",
-    // callToActionLink: "/professional", // Adjust based on your routing
+    callToActionText: "View My Work",
+    callToActionLink: "/professional", // Adjust based on your routing
   };

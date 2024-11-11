@@ -37,12 +37,12 @@ const HeroCard: React.FC<HeroCardProps> = ({
             </span>
           )}
         </p>
-        {/* <a
+        <a
           href={callToActionLink}
           className="inline-block px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors duration-300"
         >
           {callToActionText}
-        </a> */}
+        </a>
       </div>
       <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
         <Image

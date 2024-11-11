@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define CSS variables for dark mode */
+:root {
+  --background: #1a202c; /* Tailwind's gray-900 */
+  --foreground: #f7fafc; /* Tailwind's gray-100 */
+  --island-background: #111827; /* Tailwind's gray-800, darker than background */
+}
+
+html.dark {
+  --background: #1a202c; /* Dark background */
+  --foreground: #f7fafc; /* Light text */
+  --island-background: #111827; /* Darker island background */
+}
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
